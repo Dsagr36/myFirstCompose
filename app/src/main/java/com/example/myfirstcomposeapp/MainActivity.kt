@@ -41,7 +41,7 @@ fun Greeting(oldName: String, modifier: Modifier = Modifier) {
 
     var myName by rememberSaveable { mutableStateOf("") }
 
-
+    var names
 
     Column(modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
